@@ -1,0 +1,9 @@
+```json
+{
+  "steps": [
+    { "id": "geo", "tool": "geocoding", "params": { "city": "Gorakhpur" } },
+    { "id": "weather", "tool": "weather", "params": { "latitude": "{{geo.latitude}}", "longitude": "{{geo.longitude}}" } },
+    { "id": "news", "tool": "news", "params": { "query": "Gorakhpur" } }
+  ]
+}
+```
