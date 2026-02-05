@@ -31,6 +31,7 @@ graph LR
    ```bash
    cp .env.example .env
    # Add OPENAI_API_KEY into .env
+     NEWS_API_KEY
    ```
 
 3. **Run Backend (Core)**
